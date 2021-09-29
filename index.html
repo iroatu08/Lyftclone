@@ -11,7 +11,7 @@
 <body>
     <div class="flex  flex-wrap overflow-hidden">
 
-        <div class="header fixed bg-white w-full overflow-hidden border py-2 px-3  flex items-center">
+        <div class="header  bg-white w-full overflow-hidden border py-2 px-3  flex items-center">
             <div class="logo lg:w-1/5 h-16 lg:ml-20 flex items-center">
                 <span class="px-3 object-contain lg:ml-10 text-3xl text-pink-500 hover:text-black font-bold font-serif py-3">Lyft</span>
             </div>
@@ -23,7 +23,7 @@
                         <svg width="16" height="16" viewBox="0 0 16 16"
                         class="hidden lg:block" style="fill:#DE00A6" aria-hidden="true" focusable="false"><path d="M8 14A6 6 0 1 1 8 2a6 6 0 0 1 0 12zm0-4a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"></path></svg>
 
-                        <svg class=" mx-2 cursor-pointer" width="16"  height="16" style="fill:var(--core-ui-theme-icon-primary,rgba(12,11,49,1))" aria-hidden="true"><path fill-rule="evenodd" d="M7.298 10.313a3.172 3.172 0 0 1-2.776-3.514 3.145 3.145 0 0 1 1.182-2.116 3.14 3.14 0 0 1 2.332-.66 3.17 3.17 0 0 1 2.777 3.515A3.15 3.15 0 0 1 9.63 9.653a3.151 3.151 0 0 1-2.332.66zm5.98 2.433-1.733-2.192A5.122 5.122 0 0 0 12.8 7.771V7.77a5.173 5.173 0 0 0-4.53-5.733 5.111 5.111 0 0 0-3.806 1.077 5.131 5.131 0 0 0-1.929 3.452 5.174 5.174 0 0 0 5.137 5.768 5.1 5.1 0 0 0 2.287-.56l1.747 2.212 1.571-1.24z"/></svg>
+                        <svg class="lg:hidden mx-2 cursor-pointer" width="16"  height="16" style="fill:var(--core-ui-theme-icon-primary,rgba(12,11,49,1))" aria-hidden="true"><path fill-rule="evenodd" d="M7.298 10.313a3.172 3.172 0 0 1-2.776-3.514 3.145 3.145 0 0 1 1.182-2.116 3.14 3.14 0 0 1 2.332-.66 3.17 3.17 0 0 1 2.777 3.515A3.15 3.15 0 0 1 9.63 9.653a3.151 3.151 0 0 1-2.332.66zm5.98 2.433-1.733-2.192A5.122 5.122 0 0 0 12.8 7.771V7.77a5.173 5.173 0 0 0-4.53-5.733 5.111 5.111 0 0 0-3.806 1.077 5.131 5.131 0 0 0-1.929 3.452 5.174 5.174 0 0 0 5.137 5.768 5.1 5.1 0 0 0 2.287-.56l1.747 2.212 1.571-1.24z"/></svg>
                 
                         
                     </div>
@@ -81,7 +81,7 @@
     <div class="h-20 lg:h-8"></div>
     
     <div class="first-section mx-4 lg:mx-8 flex flex-wrap mb-32 overflow-hidden">
-        <div class="w-full text-center left-side lg:w-2/4 mb-8">
+        <div class="w-full text-center lg:text-left left-side lg:w-2/4 mb-8">
             <div class=" w-full heading overflow-hidden lg:pl-8">
                 <div class="h-8 lg:h-20"></div>
                 <h1 class="font-bold pb-4"> READY WHEN YOU ARE</h1>
@@ -91,14 +91,14 @@
             </div>
         
 
-            <div class=" flex flex-col lg:pl-8 mt-12 gap-4">
+            <div class=" flex flex-col lg:flex-row lg:pl-8 mt-12 gap-4">
 
                 <div class="flex justify-center">
-                    <button class="w-1/2 px-6 py-4 flex items-center justify-center rounded-full bg-purple-600 text-white p-2 hover:bg-purple-800" type="submit">Apply to drive </button>
+                    <button class="w-1/2 lg:w-full px-6 py-4 flex items-center justify-center rounded-full bg-purple-600 text-white p-2 hover:bg-purple-800" type="submit">Apply to drive </button>
                 </div>
                
                 <div class="flex justify-center"> 
-                    <button class="w-1/2 px-6 py-4 flex items-center justify-center rounded-full border border-purple-300 hover:bg-purple-100 font-semibold" type="button">Sign up to ride</button>
+                    <button class="w-1/2 lg:w-full  px-6 py-4 flex items-center justify-center rounded-full border border-purple-300 hover:bg-purple-100 font-semibold" type="button">Sign up to ride</button>
                 </div>
                 
               </div>
@@ -113,7 +113,7 @@
                 
             </div>
 
-            <div class="absolute w-full p-4 block -left-32 -bottom-32 lg:block hidden">
+            <div class="absolute w-full p-4 block  -left-32 -bottom-32 lg:block hidden">
                 <img src="https://images.ctfassets.net/q8mvene1wzq4/4AG5Z6ucAgN07j4WnPenfP/53532edcadcb2086955c2a8338dceeac/Driver_wearing_a_mask_in_the_car.jpg?w=800&q=60&fm=webp" alt="" srcset="">
             </div>
             
@@ -124,7 +124,7 @@
 
     <div class="lg:h-20"></div>
 
-    <div class="second-section mx-4 lg:mx-8 flex flex flex-wrap mb-32 flex-col-reverse lg:flex-col-reverse overflow-hidden">
+    <div class="second-section mx-4 lg:mx-8 flex flex flex-wrap mb-32 flex-col-reverse  lg:flex-row overflow-hidden">
         <div class="w-1/12"></div>
         <div class="w-full left-side lg:w-2/6">
             <div class="image w-full  lg:p-4">
@@ -191,15 +191,15 @@
             </div>
         
 
-            <div class=" gap-y-6 buttons flex flex-col lg:pl-8 mt-12">
+            <div class=" gap-y-6 buttons flex flex-col lg:flex-row lg:pl-8 mt-12">
 
                 <div class="flex justify-center">
-                    <button class="w-1/2 flex items-center justify-center rounded-full bg-purple-600 text-white px-6 py-4 hover:bg-purple-800 " type="submit">Apply to drive </button>
+                    <button class="w-1/2 lg:w-full flex items-center justify-center rounded-full bg-purple-600 text-white px-6 py-4 hover:bg-purple-800 " type="submit">Apply to drive </button>
                 </div>
                 
 
                 <div class="flex justify-center">
-                    <button class="w-1/2 text-sm  flex items-center justify-center hover:underline font-bold ml-4" type="button">How driver pay works </button>
+                    <button class="w-1/2 lg:w-full text-sm  flex items-center justify-center hover:underline font-bold ml-4" type="button">How driver pay works </button>
                     <span class=" ml-0 flex items-center">
                         <svg width="16" height="16" viewBox="0 0 16 16" style="fill:currentColor" aria-hidden="true" focusable="false"><path d="M10.173 9.422H1V6.613h9.173L7.411 3.298 9.569 1.5 15 8.017l-5.431 6.517-2.158-1.798z"></path></svg>
                     </span>
@@ -327,7 +327,7 @@ in just a few quick taps.
                 </div>
             
                 
-                <div class=" bg-white   border-gray-500 border-opacity-75 px-8 py-4 text-white flex items-center rounded-lg mb-4 mt-2">
+                <div class=" bg-white   border-gray-500 border-opacity-75 px-8 py-4 text-white flex items-center rounded-lg mb-4  my-4">
 
                     <svg width="16" height="16" viewBox="0 0 16 16" style="fill:#DE00A6" aria-hidden="true" focusable="false"><path d="M8 14A6 6 0 1 1 8 2a6 6 0 0 1 0 12zm0-4a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"></path></svg>
             
@@ -335,7 +335,7 @@ in just a few quick taps.
                       <input type="text" id="search" placeholder="Where are you going?" class=" px-6 text-black-600 focus:outline-none placeholder-gray ">
                 </div>
 
-                <div class="lg:w-1/6 lg:ml-8 flex items-center justify-left mt-4">
+                <div class="lg:w-1/6 lg:ml-8 flex items-center justify-left mt-4 lg:mt-0">
                     <span>
                         <a role="button" class="bg-white text-gray text-sm px-6 py-3  border rounded-full hover:bg-gray-200">
                         Get Estimate
@@ -351,7 +351,7 @@ in just a few quick taps.
      
     </div>
 
-    <div class="fifth-section mx-4 mb-20 flex flex-wrap overflow-hidden"> 
+    <div class="fifth-section mx-4 mb-20 lg:pt-20 flex flex-wrap overflow-hidden"> 
         <div class="w-1/12"></div>
         <div class="w-full left-side  lg:w-5/12">
             <div class="heading text-left pt-10 lg:pl-8">
@@ -369,7 +369,7 @@ in just a few quick taps.
         
 
             <div class=" buttons flex flex-col lg:flex-row lg:pl-8 mt-12">
-                <button class="cursor-pointer py-3 px-6 w-48 lg:w-40  rounded-full bg-purple-600 text-white lg:p-2 hover:bg-purple-800 " type="submit">Learn about safety </button>
+                <button class="cursor-pointer py-2 px-6 w-48 lg:w-40  rounded-full bg-purple-600 text-white lg:p-2 hover:bg-purple-800 " type="submit">Learn about safety </button>
 
                 <div class="flex items-center justify-left py-6">
 
@@ -399,7 +399,7 @@ in just a few quick taps.
         </div>
     </div>
 
-    <div class="sixth-section flex-col-reverse lg:flex-col-reverse mx-4 mb-32 flex flex-wrap overflow-hidden">
+    <div class="sixth-section flex-col-reverse lg:flex-row mx-4 mb-32 flex flex-wrap overflow-hidden">
         <div class="w-1/12"></div>
 
         
@@ -417,7 +417,7 @@ in just a few quick taps.
 
         <div class="w-1/12"></div>
         <div class="right-side  lg:w-5/12">
-            <div class="heading text-center lg:pl-8">
+            <div class="heading text-center lg:text-left lg:pl-8">
                 <h1 class="font-semibold">
                     VACCINE ACCESS</h1>
                 <h1 class="text-3xl py-4 font-semibold leading-tight" style="color: #0C0B31">
